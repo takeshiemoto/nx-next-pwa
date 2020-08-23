@@ -23,7 +23,7 @@ export default class CustomDocument extends Document<{
         <Head>
           <title>Welcome to next-pwa!</title>
           {this.props.styleTags}
-          <link rel="manifest" href="./manifest.json" />
+          <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />
